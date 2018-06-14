@@ -47,9 +47,15 @@ nav .logo{
     padding-left: 10px;
 }
 
+.fa-home:before {
+    content: "\f015";
+    color: aliceblue;
+}
+
 nav .logo a{
     text-decoration: none;
     color: #fff;
+    font-size: 28px;
 }
 
 #banner .inner{
@@ -71,6 +77,17 @@ nav .logo a{
 
 #banner .inner .more{
     margin-top: 140px;
+}
+
+#banner .inner .fa-angle-double-down{
+    font-size: 48px;
+    margin: 10px;
+}
+
+.fa-heart:before {
+    content: "\f004";
+    font-size: 77px;
+    color: #ed93b1;
 }
 
 .sub-heading{
@@ -142,9 +159,10 @@ p{
     display: inline-block;
     width: 80px;
     height: 80px;
-    background: #455acf;
+    background: #98a0cf;
     transform: rotate(45deg);
     margin: 20px;
+    padding: 10px;
 }
 
 .wrapper{
